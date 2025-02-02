@@ -33,3 +33,18 @@ h2 {
   min-height: 100px;
   min-width: 300px;
 }
+button{
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+}
+.like{
+  text-align: right;
+}
+.like h4{
+  margin-right: 10px;
+  color: #f3f3f3;
+}
