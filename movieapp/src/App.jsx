@@ -24,9 +24,9 @@ const App = () => {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  const fetchMovie = async () => {
-    setIsLoading(true);
+  const fetchMovie = async (query ='') => {
 
+    setIsLoading(true);
     setErrorMessage("");
 
     try {
